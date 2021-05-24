@@ -18,6 +18,19 @@ h1 {
   font-family: 'VickyChristina';
 }
 
+.button {
+  background: #fff;
+  border-radius: 50px;
+  border: 1px solid #eee;
+  -webkit-box-shadow: rgba(0,12,32,.04) 0 0 1px 0,rgba(10,31,68,.1) 0 3px 4px 0;
+  color: #555;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  margin-top: .7em;
+  padding: 0 25px;
+}
+
 /*FONTS*/
 @font-face {
   src: url(Fonts/Vollkorn-Variable);
