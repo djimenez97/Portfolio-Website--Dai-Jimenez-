@@ -6,16 +6,20 @@ Off-White: #fdf8f8
 White: #ffffff
  */
 
+img {
+  width: 100%;
+}
+
 body {
   background-color: #fdf8f8;
   font-family: arial;
 }
+h1 {
+  font-family: 'VickyChristina';
+}
 
+/*FONTS*/
 @font-face {
   src: url(Web Font Kit/VickyChristina.otf);
   font-family: 'VickyChristina';
 }
-
-h1 {
-  font-family: 'VickyChristina';
- }
