@@ -8,12 +8,11 @@ White: #ffffff
 
 body
  {background-color: #fdf8f8 }
- h1 {
-   font-face: vicky_christinaregular
- }
- @font-face {
-   font-family: 'vicky_christinaregular';
-     src: url('vickychristina-webfont.woff2') format('woff2'), url('vickychristina-webfont.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
+ h1 {font-family: 'vicky_christinaregular';}
+
+@font-face {
+  font-family: 'vicky_christinaregular';
+    src: url('vickychristina-webfont.woff2') format('woff2'), url('vickychristina-webfont.woff') format('woff');
+    font-weight: normal;
+   font-style: normal;
  }
