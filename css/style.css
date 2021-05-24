@@ -6,9 +6,9 @@ Off-White: #fdf8f8
 White: #ffffff
  */
 
-body{
+body {
  background-color: #fdf8f8
- font-family: sans-serif;
+ font-family: 'arial';
 }
 
 @font-face {
