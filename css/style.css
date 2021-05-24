@@ -12,7 +12,7 @@ body
 
 @font-face {
   font-family: 'vicky_christinaregular';
-    src: url('vickychristina-webfont.woff2') format('woff2'), url('vickychristina-webfont.woff') format('woff');
+    src: url('css/Web Font Kit/vickychristina-webfont.woff2') format('woff2'), url('css/Web Font Kit/vickychristina-webfont.woff') format('woff');
     font-weight: normal;
    font-style: normal;
  }
