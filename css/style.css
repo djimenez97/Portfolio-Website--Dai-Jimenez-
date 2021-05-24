@@ -20,6 +20,14 @@ h1 {
 
 /*FONTS*/
 @font-face {
-  src: url(Web Font Kit/VickyChristina.otf);
+  src: url(Fonts/Vollkorn-Variable);
+  font-family: 'Vollkorn-Variable'
+}
+@font-face {
+  src: url(Fonts/Vollkorn-Italic-Variable);
+  font-family: 'Vollkorn-Italic-Variable'
+}
+@font-face {
+  src: url(Fonts/VickyChristina.otf);
   font-family: 'VickyChristina';
 }
