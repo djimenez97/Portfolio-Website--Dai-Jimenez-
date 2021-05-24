@@ -1,2 +1,15 @@
+/*Color Palette:
+Burgundy: #420704
+Rose: #a15655
+Light Pink: #faf0f0
+Off-White: #fdf8f8
+White: #ffffff
+ */
+
 body
  {background-color: #fdf8f8 }
+ h1
+  { font-family: 'vicky_christinaregular';
+  src: url('vickychristina-webfont.woff2') format('woff2'), url('vickychristina-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal; }
