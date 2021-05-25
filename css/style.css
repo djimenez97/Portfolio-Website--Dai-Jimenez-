@@ -6,8 +6,20 @@ Off-White: #fdf8f8
 White: #ffffff
  */
 
-img {
-  width: 100%;
+.nav {
+ display: flex;
+ width: 400px;
+ height: 90px;
+ margin-right: auto;
+ margin-left: auto;
+ padding-top: 2vh;
+ padding-bottom: 2vh;
+ float: right;
+ justify-content: center;
+ align-items: center;
+ font-family: "Vicky Christina";
+ font-weight: 400;
+ object-position: 50% 50%;
 }
 
 body {
