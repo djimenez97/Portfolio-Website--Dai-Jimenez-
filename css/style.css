@@ -45,19 +45,24 @@ h4 {
 /*LINKS*/
 a {
   color: #a15655;
+  font-weight: 600;
   text-decoration: none; /* No underlining */
 }
 a:visited {
+  font-weight: 600;
   color: #b08382;
 }
 a:active {
+  font-weight: 600;
   color: #a15655;
 }
 a:hover {
+  font-weight: 600;
   color: #d65e5c;
   text-decoration: underline;
 }
 a:focus {
+  font-weight: 600;
   color: #d65e5c;
   text-decoration: underline;
 }
@@ -77,7 +82,7 @@ a:focus {
 .button {
   display: inline-block;
   background-color: #420704;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
   font-weight: 600;
   padding: 10px;
   border-radius: 3px;
