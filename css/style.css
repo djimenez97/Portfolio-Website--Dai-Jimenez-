@@ -10,7 +10,7 @@ img {
 }
 
 body {
-  background-color: #fdf8f8;
+  background-color: #ffffff;
   font-family: 'Vollkorn-Variable';
   font-size: 16px;
   font-weight: 300;
@@ -42,6 +42,26 @@ h4 {
   font-weight: 400;
 }
 
+/*LINKS*/
+a {
+  color: #a15655;
+  text-decoration: none; /* No underlining */
+}
+a:visited {
+  color: #b08382;
+}
+a:active {
+  color: #a15655;
+}
+a:hover {
+  color: #d65e5c;
+  text-decoration: underline;
+}
+a:focus {
+  color: #d65e5c;
+  text-decoration: underline;
+}
+
 /*FONTS*/
 @font-face {
   src: url(Fonts/Vollkorn);
@@ -51,4 +71,25 @@ h4 {
 @font-face {
   src: url(Fonts/VickyChristina.otf);
   font-family: 'VickyChristina';
+}
+
+/*Buttons*/
+.button {
+  display: inline-block;
+  background-color: #d65e5c;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #a15655; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button:active {
+  opacity: 0.9; /* Reduces the opacity of the button to 90% */
+  background-color: 420704;
 }
