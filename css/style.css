@@ -5,7 +5,6 @@ Light Pink: #faf0f0
 Off-White: #fdf8f8
 White: #ffffff
  */
-
 img {
   width: 100%;
 }
@@ -14,20 +13,23 @@ body {
   background-color: #fdf8f8;
   font-family: 'Vollkorn-Variable';
 }
+
 h1 {
   font-family: 'VickyChristina';
+  color: Burgundy: #420704
 }
-
 
 /*FONTS*/
 @font-face {
   src: url(Fonts/Vollkorn-Variable);
   font-family: 'Vollkorn-Variable';
 }
+
 @font-face {
   src: url(Fonts/Vollkorn-Italic-Variable);
   font-family: 'Vollkorn-Italic-Variable';
 }
+
 @font-face {
   src: url(Fonts/VickyChristina.otf);
   font-family: 'VickyChristina';
