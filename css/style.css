@@ -81,15 +81,15 @@ a:focus {
   font-weight: 600;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #a15655; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
+  opacity: 0.9; /* Reduces the opacity of the button to 90% */
+  background-color: #420704;
 }
 
 .button:active {
-  opacity: 0.9; /* Reduces the opacity of the button to 90% */
-  background-color: #420704;
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
 }
