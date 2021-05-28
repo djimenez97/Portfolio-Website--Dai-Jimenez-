@@ -78,7 +78,7 @@ a:focus {
   display: inline-block;
   background-color: #d65e5c;
   color: #ffffff; /* needed to override the default link color */
-  font-weight: 400;
+  font-weight: 600;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #a15655; /* width of the border, type, color */
@@ -91,5 +91,5 @@ a:focus {
 
 .button:active {
   opacity: 0.9; /* Reduces the opacity of the button to 90% */
-  background-color: 420704;
+  background-color: #420704;
 }
