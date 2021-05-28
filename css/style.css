@@ -6,20 +6,8 @@ Off-White: #fdf8f8
 White: #ffffff
  */
 
-.nav {
- display: flex;
- width: 400px;
- height: 90px;
- margin-right: auto;
- margin-left: auto;
- padding-top: 2vh;
- padding-bottom: 2vh;
- float: right;
- justify-content: center;
- align-items: center;
- font-family: "Vicky Christina";
- font-weight: 400;
- object-position: 50% 50%;
+img {
+  width: 100%;
 }
 
 body {
@@ -43,17 +31,4 @@ h1 {
 @font-face {
   src: url(Fonts/VickyChristina.otf);
   font-family: 'VickyChristina';
-}
-
-.button {
-  background: #fff;
-  border-radius: 50px;
-  border: 1px solid #eee;
-  -webkit-box-shadow: rgba(0,12,32,.04) 0 0 1px 0,rgba(10,31,68,.1) 0 3px 4px 0;
-  color: #555;
-  display: inline-block;
-  height: 50px;
-  line-height: 50px;
-  margin-top: .7em;
-  padding: 0 25px;
 }
